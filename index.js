@@ -134,7 +134,7 @@ module.exports = function FastFire(dispatch) {
     if (group !== SKILL_BURNING_HEART) return;
 
     const speed = aspd * (Date.now() < buff ? 1.3 : 1);
-    const baseDuration = (hit === 0) ? 900 : 400;
+    const baseDuration = (hit === 0) ? 880 : 390;
 
     dispatch.toClient('sActionStage', {
       source: cid,
