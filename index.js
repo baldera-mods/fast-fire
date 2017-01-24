@@ -86,7 +86,7 @@ module.exports = function FastFire(dispatch) {
         });
       }
 
-      baseDuration = [425, 600, 700, 700, 700, 700, 1225][hit] || -1;
+      baseDuration = [425, 600, 700, 700, 700, 700, 1235][hit] || -1;
     }
 
     if (job === JOB_GUNNER && group === SKILL_BURST_FIRE) {
