@@ -111,11 +111,12 @@ module.exports = function FastFire(dispatch) {
       id: atkid,
       unk: 1,
       unk1: 0,
+      toX: 0,
+      toY: 0,
+      toZ: 0,
       unk2: 0,
       unk3: 0,
-      unk4: 0,
-      unk5: 0,
-      unk6: 0,
+      movement: []
     });
 
     const timer = setTimeout(forceEnd, baseDuration / speed, event);
@@ -149,11 +150,12 @@ module.exports = function FastFire(dispatch) {
       id: atkid,
       unk: 1,
       unk1: 0,
+      toX: 0,
+      toY: 0,
+      toZ: 0,
       unk2: 0,
       unk3: 0,
-      unk4: 0,
-      unk5: 0,
-      unk6: 0,
+      movement: []
     });
 
     const timer = setTimeout(forceEnd, baseDuration / speed, event);
