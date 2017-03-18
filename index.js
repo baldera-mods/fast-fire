@@ -90,7 +90,8 @@ module.exports = function FastFire(dispatch) {
     }
 
     if (job === JOB_GUNNER && group === SKILL_BURST_FIRE) {
-      speed *= (hit === 0) ? 0.9 : 1;
+      if(hit === 0) speed *= 0.9;
+      else speed = 1;
       baseDuration = (hit === 0) ? 1275 : 122;
     }
 
